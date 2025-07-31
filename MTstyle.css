@@ -1,0 +1,179 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.nav_contain{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-name{
+    position: absolute;
+    left: 320px;
+    top: 10px;
+    font-size: larger;
+}
+.nav-item{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: larger;
+    gap: 35px;
+    position: absolute;
+    top: 10px;
+    left: 1250px;
+}
+.content_main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.content_text{
+    max-width: 350px;
+    margin: 80px 320px;
+}
+.content-uiux{
+    text-transform: uppercase;
+    color: #FDC435;
+    margin: 10px 0;
+}
+.content-h1{
+    font-size: 45px;
+    margin: 10px 0;
+}
+.content-text{
+    color: #828282;
+    font-size: larger;
+    margin: 25px 0;
+}
+.content-photo{
+    position: relative;
+}
+.project-btn{
+    background-color: #FDC435;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: large;
+}
+.link-btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: white;
+    border: 2px solid black;
+}
+.ps-h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.pbox1, .pbox2, .pbox3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    display: inline-flex;
+    margin: 20px 400px;
+    box-shadow: 2px 3px 3px;
+    border-radius: 20px;
+    max-height: 423px;
+    background-color: whitesmoke;
+}
+.pbtext{
+    max-width: 420px;
+    border: 2px solid transparent;
+}
+.box1-h1, .box2-h1, .box3-h1{
+    margin: 20px 0;
+    margin-left: 60px;
+}
+.box1-p, .box2-p, .box3-p{
+    font-size: larger;
+    margin-left: 60px;
+}
+.box1-btn, .box2-btn, .box3-btn{
+    padding: 10px 25px;
+    border-radius: 27px;
+    font-size: large;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px 60px;
+}
+.login{
+    margin-top: 100px;
+}
+label{
+    font-size: large;
+}
+input,textarea{
+    padding: 7px 90px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+    border: 1px solid gray;
+}
+.logindata{
+    margin: 20px 680px;
+}
+.login-btn{
+    padding: 10px 30px;
+    font-size: larger;
+    background-color: #FDC435;
+    border-radius: 15px;
+    border: none;
+}
+.loginicon{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-p{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+}
+.aboutnav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: larger;
+    margin-top: 70px;
+}
+.aboutlist{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 40px;
+}
+.aboutcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.abouttext{
+    max-width: 450px;
+    /* border: 2px solid; */
+    margin-top: 100px;
+}
+.about-h1{
+    font-size: 40px;
+    margin: 10px;
+}
+.about-p{
+    font-size: large;
+    color: gray;
+    margin: 10px;
+}
+.about-btn{
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: large;
+    background-color: #FDC435;
+    border: none;
+    margin:10px;
+}
+
+

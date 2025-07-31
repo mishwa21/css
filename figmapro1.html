@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+        }
+        .nav_contain{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 15px 0;
+        }
+        .nav-item{
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            gap: 30px;
+            font-size: larger;
+        }
+        .content_main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .content_text{
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        .content-uiux{
+            text-transform: uppercase;
+            color: #FDC435;
+            margin: 10px 0;
+        }
+        .content-h1{
+            font-size: 45px;
+            margin: 10px 0;
+        }
+        .content-text{
+            color: #828282;
+            font-size: larger;
+            margin: 25px 0;
+        }
+        .project-btn{
+            background-color: #FDC435;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 10px;
+            font-size: large;
+        }
+        .link-btn{
+            padding: 10px 25px;
+            border-radius: 10px;
+            font-size: large;
+            background-color: white;
+            border: 2px solid black;
+        }
+        .ps-h1{
+            text-align: center;
+            margin: 50px 0;
+        }
+        .pbox1, .pbox2, .pbox3{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: whitesmoke;
+            justify-content: center;
+            margin: 25px 50px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px;
+        }
+        .pbtext{
+            max-width: 400px;
+            margin: 50px 0;
+        }
+        .box1-h1, .box2-h1, .box3-h1{
+            margin: 20px 0;
+            margin-left: 60px;
+        }
+        .box1-p, .box2-p, .box3-p{
+            font-size: larger;
+            margin-left: 60px;
+        }
+        .box1-btn, .box2-btn, .box3-btn{
+            padding: 10px 25px;
+            border-radius: 27px;
+            font-size: large;
+            background-color: white;
+            border: 2px solid black;
+            margin: 20px 60px;
+        }
+        .pbphoto{
+            width: 396px;
+            height: 426px;
+        }
+        .logindata{
+            text-align: center;
+        }
+        input,textarea{
+            width: 350px;
+            height: 35px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+            border: none;
+            outline: none;
+            margin: 10px 0px;
+            border: 1px solid gray;
+            text-align: center;
+        }
+        label{
+            font-size: larger;
+            text-align: end;
+        }
+        .login-btn{
+            padding: 10px 30px;
+            font-size: larger;
+            background-color: #FDC435;
+            border-radius: 15px;
+            border: none;
+        }
+        .loginicon{
+            font-size: 40px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .login-p{
+            font-size: larger;
+            font-weight: bold;
+            text-align: center;
+            color: gray;
+        }
+        .aboutnav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-size: larger;
+            margin-top: 70px;
+        }
+        .aboutlist{
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            gap: 40px;
+        }
+        .aboutcontent{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 70px;
+        }
+        .abouttext{
+            max-width: 450px;
+            margin-top: 100px;
+        }
+        .about-h1{
+            font-size: 40px;
+            margin: 10px;
+        }
+        .about-p{
+            font-size: large;
+            color: gray;
+            margin: 10px;
+        }
+        .about-btn{
+            padding: 10px 25px;
+            border-radius: 15px;
+            font-size: large;
+            background-color: #FDC435;
+            border: none;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar content -->
+    <nav>
+        <div class="nav_contain">
+            <div class="nav-name">
+                <h3>Madelyn Troff</h3>
+            </div>
+            <div class="nav-item">
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contacts</li>
+            </div>
+        </div>
+    </nav>
+    <div class="content_main">
+        <div class="content_text">
+            <p class="content-uiux">ul/ux designer</p>
+            <h1 class="content-h1">Hello, my name is Madelyn Troff</h1>
+            <p class="content-text">Short text with details about you, what you do or your professional career. You can add more information on the about page.</p>
+            <button class="project-btn">Projects</button>
+            <button class="link-btn">LinkedIn</button>
+        </div>
+        <div class="content-photo">
+            <img src="image.png" alt="" height="550px" width="660px">
+        </div>
+    </div>   
+    
+    <!-- project section  -->
+    <h1 class="ps-h1">Projects</h1>
+    <div class="projectbox">
+        <div class="pbox1">
+            <div class="pbtext">
+                <h1 class="box1-h1">Project Name</h1>
+                <p class="box1-p">I created this personal project in order to show how to create an interface in figma using a portfolio as an example.</p>
+                <button class="box1-btn">View Project</button>
+            </div>
+            <div class="pbphoto">
+                <img src="yogagirl.png" alt="" height="100%" width="100%" style="border-radius: 0 20px 20px 0;">
+            </div>
+        </div>
+
+        <div class="pbox2">
+            <div class="pbphoto">
+                <img src="Rectangle 7.png" alt="" height="100%" width="100%"  style="border-radius: 20px 0 0 20px;">
+            </div>
+            <div class="pbtext">
+                <h1 class="box2-h1">Project Name</h1>
+                <p class="box2-p">I created this personal project in order to show how to create an interface in figma using a portfolio as an example.</p>
+                <button class="box2-btn">View Project</button>
+            </div>
+        </div>
+
+        <div class="pbox3">
+            <div class="pbtext">
+                <h1 class="box3-h1">Project Name</h1>
+                <p class="box3-p">I created this personal project in order to show how to create an interface in figma using a portfolio as an example.</p>
+                <button class="box3-btn">View Project</button>
+            </div>
+            <div class="pbphoto">
+                <img src="Rectangle.png" alt="" height="100%" width="100%" style="border-radius: 0 20px 20px 0;">
+            </div>
+        </div>
+    </div>
+
+    <!-- login page -->
+    <h1 class="login ps-h1">Projects</h1> 
+    <div class="login-page">
+        <div class="logindata">
+        <label for="">Name</label><br>
+        <input type="text"><br>
+        <label for="">Email</label><br>
+        <input type="text"><br>
+        <label for="">Message</label><br>
+        <textarea name="" id=""></textarea><br>
+        <button class="login-btn">Send</button>
+        </div>
+        <div class="loginicon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p class="login-p">Madelyn Troff 2021</p>
+        <img src="Vector.png" alt="" width="100%">
+    </div>
+
+    <!-- aboutme section -->
+    <nav>
+        <div class="aboutnav">
+            <div class=>
+                <h3>Madelyn Troff</h3>
+            </div>
+            <div class=aboutlist>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contacts</li>
+            </div>
+        </div>
+    </nav>
+    <div class="aboutcontent">
+        <div class="abouttext">
+            <h1 class="about-h1">About me</h1>
+            <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore numquam illum ea aut sit temporibus magni ducimus incidunt perferendis nulla. Perspiciatis nobis eaque dolore! Libero vero aliquam sequi id ipsam.</p>
+            <button class="about-btn">Resume</button>
+        </div>
+        <div class="aboutphoto">
+            <img src="bg-2.png" alt="">
+        </div>
+    </div>
+
+    <!-- login page -->
+    <h1 class="login ps-h1">Projects</h1> 
+    <div class="login-page">
+        <div class="logindata">
+        <label for="">Name</label><br>
+        <input type="text"><br>
+        <label for="">Email</label><br>
+        <input type="text"><br>
+        <label for="">Message</label><br>
+        <textarea name="" id=""></textarea><br>
+        <button class="login-btn">Send</button>
+        </div>
+        <div class="loginicon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p class="login-p">Madelyn Troff 2021</p>
+        <img src="Vector.png" alt="" width="100%">
+    </div>
+</body>
+</html>
