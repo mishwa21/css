@@ -1,0 +1,261 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.navbardata{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f3b607;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13px;
+}
+.nav_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 30px;
+    font-size: x-large;
+    color: white;
+}
+input{
+    padding: 12px;
+    outline: none;
+    border: none;
+    background-color: rgb(242, 218, 7);
+}
+.sicon{
+    background-color: rgb(29, 220, 220);
+    padding: 11px;
+    border: none;
+}
+.aboutcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#f2c10e; 
+}
+.content_text{
+    max-width: 600px;
+    align-content: center;
+}
+.content_text h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+.content_text p{
+    font-size: x-large;
+    color: white;
+    margin-bottom: 20px;
+}
+.cu-btn, .os-btn{
+    padding: 10px 30px;
+    font-size: large;
+    background-color:rgb(29, 220, 220);
+    border: none;
+    border-radius: 8px;
+}
+.os-btn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.servicecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 80px 0;
+}
+.service_text{
+    max-width: 450px;
+    align-content: center;
+}
+.service_text h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.service_text p{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.os-btn1{
+    padding: 10px 30px;
+    font-size: large;
+    background-color:#f2c10e;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+.sp{
+    border-left: 32px solid gold;
+    border-bottom: 48px solid gold;
+}
+.title_container{
+    background-color: #f2c10e;
+    padding: 50px 0;
+    color: white;
+}
+.title_text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title_text h1{
+    font-size: 50px;
+}
+.title_text p{
+    font-size: x-large;
+}
+.titlecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.titlephoto_text, .tp_h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.titlephoto_text{
+    font-size: large;
+    margin: 15px 0;
+}
+.stext2{
+    text-align-last: right;
+}
+.price{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin: 15px 0;
+}
+.dogprice_btn{
+    padding: 13px 50px;
+    font-size: large;
+    background-color:rgb(29, 220, 220);
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+.containervetcare{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.vetcare_text{
+    text-align: center;
+}
+.vetcare_text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.vetcare_text h1{
+    font-size: 50px;
+}
+.vetcare_text p{
+    font-size: x-large;
+}
+.vteam_person h2{
+    margin: 4px 0;
+}
+.vteam_person p{
+    font-size: x-large;
+    margin: 5px 0 18px 0;
+}
+.Vteam_info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.vteam_person{
+    text-align: center;
+}
+.vteam_person p{
+    font-size: large;
+}
+/* .vetcare_icon{
+    font-size: 15px;
+    background-color: #f2c10e;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 9px;
+}
+.iconVT{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+} */
+.containerreview{
+   background: linear-gradient(rgba(236, 220, 41, 0.98), rgba(238, 184, 33, 0.499)),url(Image/p5.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   text-align: center;
+   padding: 150px 0;
+   color: white;
+}
+.review i{
+    font-size: 80px;
+    margin: 30px 0;
+}
+.review p{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.recentpinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.rp_data h2{
+    margin: 10px 20px;
+}
+.textp{
+    margin: 10px 20px;
+    font-size: large;
+    color: rgb(0, 204, 255);
+    font-weight: bold;
+}
+.p2{
+    margin: 10px 20px;
+    font-size: large;
+}
+.containerfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    padding: 70px 0;
+}
+.footerdata h2{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.footerdata li{
+    margin: 10px 0;
+    font-size: large;
+}
+.footerdata p{
+    margin: 10px 0;
+    font-size: large;
+}
+.fi-btn{
+    padding: 11px;   
+    background-color: aqua;
+}
+.footericon{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.fright{
+    text-align-last: right;
+}
+.footerdata input{
+    margin: 10px 0;
+}
